@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Login Form - Code Mo</title>  
+</head>
+<body>
+    <div class="container">
+        <div class="box box-one">
+            <i class="fab fa-twitter"><img alt="" src="https://img.icons8.com/color/50/000000/twitter--v1.png"/></i>
+            <button>
+                <img alt="" src="https://premiumitsolutions.com.au/wp-content/uploads/2015/10/google-logo-2015-google-beta.jpg" width="20">
+                <span>Sign in with Google</span>
+            </button>
+            <button>
+                <img src="https://mspoweruser.com/wp-content/uploads/2019/05/apple-logo.png" width="19">
+                <span>Sign in with Apple</span>
+            </button>
+        </div>
+         <h5>Or</h5>
+        <div class="box box-two">
+            <form>
+                <input type="text" placeholder="Phone,email, or username"/>
+            </form>
+            <form>
+                <input type="password" placeholder="Password"/>
+            </form>
+            <button (click)="login()" class="next-btn" >Login</button>
+            <button type="submit">Forgot password</button>
+        </div>
+        <p>Don't have an account <a routerLink="/sign-up-form">SignUp</a></p>
+        
+        
+    </div>
+</body>
+</html>
